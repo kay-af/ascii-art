@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript" src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="head">
+        <input type="file" name="file-chooser" id="file-chooser" accept="application/json" multiple="false"/>
+        <label for="file-chooser" id="file-chooser-btn">SELECT A FRAME FILE</label>
+        <span id="file-name"></span>
+        <div class="frame-buttons">
+            <button class="style-btn" onclick="play()">PLAY</button>
+            <button class="style-btn" onclick="pause()">PAUSE</button>
+        </div>
+    </div>
+    <p id="player"></p>
+</body>
+</html>

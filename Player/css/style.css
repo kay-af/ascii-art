@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#player {
+  white-space: pre-line;
+  text-align: justify;
+  font-family: monospace;
+  line-height: 0.85;
+}
+
+.head {
+  background: linear-gradient(#222, #111);
+  box-shadow: black 4px 0px 12px;
+  padding: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.head .frame-buttons {
+  text-align: right;
+  float: right;
+  margin: auto;
+}
+
+.style-btn {
+  background: linear-gradient(rgb(34, 19, 19), rgb(0, 0, 0));
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: monospace;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12pt;
+}
+
+.style-btn:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+.style-btn:last-child {
+    border-radius: 0px 10px 10px 0px;
+}
+
+#file-name {
+    padding: 10px;
+    display: inline-block;
+    color: #888;
+    max-width: 600px;
+}
+
+.style-btn:hover {
+    background: linear-gradient(orangered, orange);
+}
+
+.head #file-chooser {
+  visibility: hidden;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.head .input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.head #file-chooser-btn {
+  content: "SELECT THE FRAMES FILE";
+  display: inline-block;
+  border: 1px solid #999;
+  border-radius: 8px;
+  padding: 5px 12px;
+  outline: none;
+  padding: 12px;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  font-size: 8pt;
+}
+
+.head #file-chooser-btn:hover {
+  background-color: white;
+  border-color: black;
+  color: #000;
+}
