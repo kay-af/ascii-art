@@ -87,3 +87,42 @@ input[type="file"] {
   border-color: black;
   color: #000;
 }
+
+
+/* slider */
+.font-range {
+  width: 40%;
+  margin: auto;
+  opacity: 0.2;
+  position: fixed;
+  left: 50%;
+  bottom: 60px;
+  border-radius: 16px;
+  transform: translate(-50%, 0%);
+  display: inline-block;
+}
+
+.range-slider {
+  -webkit-appearance: none;
+  width: 100%;
+  outline: none;
+  background-color: #bbb;
+  border-radius: 88px;
+  cursor: pointer;
+  padding: 4px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 80px;
+  height: 15px;
+  background-color: white;
+  border-radius: 88px;
+}
+
+.font-range:hover {
+  opacity: 1;
+}

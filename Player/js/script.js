@@ -4,6 +4,11 @@ var mDiv;
 var jsonData;
 
 onload = function () {
+    var fontSizer = document.getElementById("font-size");
+    fontSizer.oninput = evt => {
+        document.getElementById("player").style.fontSize = fontSizer.value + "px";
+    };
+    document.getElementById("player").style.fontSize = fontSizer.value + "px";
     var fileChooser = document.getElementById("file-chooser");
     fileChooser.onchange = function (evt) {
         pause();
