@@ -11,3 +11,5 @@ Use FramePlayer.html to view your generated frames.
 - https://www.python.org/downloads/release/python-360/ (Python 3.6)
 
 - https://pypi.org/project/tqdm/ (TQDM)
+
+![](preview.gif)
